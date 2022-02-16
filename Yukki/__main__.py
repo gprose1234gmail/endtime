@@ -338,6 +338,11 @@ All commands can be used with: /
         )
         key = InlineKeyboardMarkup(
             [
+                  [
+        InlineKeyboardButton(
+                            text="✨ ADD ✨",
+                            url="https://t.me/THELUNAMUSICROBOT?startgroup=true"),
+                    ],
                 [
                     InlineKeyboardButton(
                         text="↪️ Back", callback_data="help_back"
